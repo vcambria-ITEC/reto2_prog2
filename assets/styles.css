@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap');
 
 :root {
-    /* Colors */
     --color-primary: #2a6fdb;
     --color-secondary: #1b1f23;
     --color-background: #f3f5fa;
@@ -13,35 +12,27 @@
     --color-selected: #032666;
     --color-disabled: #9aa0a6;
 
-    /* Spacing */
     --space-xs: 4px;
     --space-sm: 8px;
     --space-md: 16px;
     --space-lg: 24px;
     --space-xl: 32px;
 
-    /* Font sizes */
     --text-small: 0.9rem;
     --text-base: 1rem;
     --text-large: 1.4rem;
     --text-title: 2rem;
 
-    /* Fonts */
     --font-title: 'Montserrat', sans-serif;
     --font-body: 'Roboto', sans-serif;
 
-    /* Borders */
     --radius-small: 6px;
     --radius-medium: 12px;
 
-    /* Shadows */
     --shadow-light: 0 3px 6px rgba(0,0,0,0.12);
     --shadow-medium: 0 6px 12px rgba(0,0,0,0.15);
 }
 
-/* ------------------------------
-   GLOBAL STYLES
---------------------------------*/
 html, body {
     height: 100%;
 }
@@ -57,9 +48,7 @@ body {
     line-height: 1.5;
 }
 
-/* ------------------------------
-   HEADER
---------------------------------*/
+
 .site-header {
     background: var(--color-primary);
     padding: var(--space-md);
@@ -74,9 +63,7 @@ body {
 }
 
 
-/* ------------------------------
-   NAVIGATION
---------------------------------*/
+
 .site-nav {
     margin-top: var(--space-md);
 }
@@ -108,9 +95,7 @@ body {
     background-color: var(--color-selected);
 }
 
-/* ------------------------------
-   MAIN CONTENT
---------------------------------*/
+
 .home-content {
     max-width: 900px;
     margin: var(--space-xl) auto;
@@ -142,9 +127,6 @@ body {
 }
 
 
-/* ------------------------------
-   FOOTER
---------------------------------*/
 .site-footer {
     text-align: center;
     padding: var(--space-md);
@@ -153,9 +135,7 @@ body {
     margin-top: auto;
 }
 
-/* ------------------------------
-   TABLE AND LIST DEFAULT STYLES
---------------------------------*/
+
 table {
     width: 100%;
     border-collapse: collapse;
